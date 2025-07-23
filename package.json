@@ -1,0 +1,31 @@
+{
+  "name": "sam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.es.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "vite build",
+    "start": "node dist/server.es.js",
+    "typecheck": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.16.0",
+    "crypto-js": "^4.2.0",
+    "eufy-robovac": "^1.4.6",
+    "node-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^24.1.0",
+    "@types/node-rsa": "^1.1.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.5"
+  }
+}
