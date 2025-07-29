@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for controlling Eufy RoboVac devices. Built with TypeScript and Vite.
 
+<a href="https://glama.ai/mcp/servers/@appleton/sam">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@appleton/sam/badge" alt="Eufy RoboVac Server MCP server" />
+</a>
+
 ## Setup
 
 1. Install dependencies:
